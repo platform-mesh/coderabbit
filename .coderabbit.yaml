@@ -62,6 +62,20 @@ reviews:
   suggested_reviewers: false
   poem: false
   in_progress_fortune: false
+  finishing_touches:
+    docstrings:
+      enabled: False
+    unit_tests:
+      enabled: False
+  pre_merge_checks:
+    docstrings:
+      mode: off
+    title:
+      mode: off
+    description:
+      mode: off
+    issue_assessment:
+      mode: off
 
   path_filters: [
     # kubebuilder generated files
