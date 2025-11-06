@@ -48,19 +48,20 @@ reviews:
   # recently. Generally this should be resolved by code ownership.
   auto_assign_reviewers: false
 
-  # Disabling general fluff
-  # collapse_walkthrough: false
-  # changed_files_summary: false
-  # sequence_diagrams: false
-  # high_level_summary_in_walkthrough: false
-  # estimate_code_review_effort: false
-  # assess_linked_issues: false
-  # related_issues: false
-  # related_prs: false
-  # suggested_labels: false
-  # suggested_reviewers: false
-  # poem: false
-  # in_progress_fortune: false
+  # Disabling general fluff. Each of these can be request individually
+  # with a command.
+  collapse_walkthrough: false
+  changed_files_summary: false
+  sequence_diagrams: false
+  high_level_summary_in_walkthrough: false
+  estimate_code_review_effort: false
+  assess_linked_issues: false
+  related_issues: false
+  related_prs: false
+  suggested_labels: false
+  suggested_reviewers: false
+  poem: false
+  in_progress_fortune: false
 
   path_filters: [
     # kubebuilder generated files
